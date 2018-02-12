@@ -1,25 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14727" started-at="2018-02-12T07:32:38Z" finished-at="2018-02-12T07:32:52Z">
+  <suite name="example suite 1" duration-ms="159260" started-at="2018-02-12T12:01:48Z" finished-at="2018-02-12T12:04:27Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14727" started-at="2018-02-12T07:32:38Z" finished-at="2018-02-12T07:32:52Z">
+    <test name="Regression suite 1" duration-ms="159260" started-at="2018-02-12T12:01:48Z" finished-at="2018-02-12T12:04:27Z">
       <class name="com.mydoctor.MyDoctor5">
-        <test-method status="PASS" signature="OpenBroweser()[pri:0, instance:com.mydoctor.MyDoctor5@36d4b5c]" name="OpenBroweser" is-config="true" duration-ms="10458" started-at="2018-02-12T13:02:38Z" finished-at="2018-02-12T13:02:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OpenBroweser -->
-        <test-method status="PASS" signature="verify_user_able_to_click_approveDoctors_link()[pri:0, instance:com.mydoctor.MyDoctor5@36d4b5c]" name="verify_user_able_to_click_approveDoctors_link" duration-ms="2623" started-at="2018-02-12T13:02:48Z" finished-at="2018-02-12T13:02:51Z">
+        <test-method status="PASS" signature="verify_user_able_to_click_approveDoctors_link()[pri:0, instance:com.mydoctor.MyDoctor5@28feb3fa]" name="verify_user_able_to_click_approveDoctors_link" duration-ms="18409" started-at="2018-02-12T17:33:27Z" finished-at="2018-02-12T17:33:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_user_able_to_click_approveDoctors_link -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:com.mydoctor.MyDoctor5@36d4b5c]" name="logout" is-config="true" duration-ms="1622" started-at="2018-02-12T13:02:51Z" finished-at="2018-02-12T13:02:52Z">
+      </class> <!-- com.mydoctor.MyDoctor5 -->
+      <class name="com.mydoctor.MyDoctor4">
+        <test-method status="PASS" signature="verify_user_able_to_click_changePassword_Link()[pri:0, instance:com.mydoctor.MyDoctor4@6d00a15d]" name="verify_user_able_to_click_changePassword_Link" duration-ms="16053" started-at="2018-02-12T17:33:11Z" finished-at="2018-02-12T17:33:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_user_able_to_click_changePassword_Link -->
+      </class> <!-- com.mydoctor.MyDoctor4 -->
+      <class name="com.mydoctor.MyDoctor3">
+        <test-method status="PASS" signature="verify_user_able_to_click_deletePatient_Link()[pri:0, instance:com.mydoctor.MyDoctor3@51565ec2]" name="verify_user_able_to_click_deletePatient_Link" duration-ms="13041" started-at="2018-02-12T17:32:58Z" finished-at="2018-02-12T17:33:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_user_able_to_click_deletePatient_Link -->
+      </class> <!-- com.mydoctor.MyDoctor3 -->
+      <class name="com.mydoctor.MyDoctor2">
+        <test-method status="PASS" signature="verify_user_able_to_click_deleteDoctor_Link()[pri:0, instance:com.mydoctor.MyDoctor2@68be2bc2]" name="verify_user_able_to_click_deleteDoctor_Link" duration-ms="10042" started-at="2018-02-12T17:32:48Z" finished-at="2018-02-12T17:32:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_user_able_to_click_deleteDoctor_Link -->
+      </class> <!-- com.mydoctor.MyDoctor2 -->
+      <class name="com.mydoctor.MyDoctor1">
+        <test-method status="PASS" signature="OpenBroweser()[pri:0, instance:com.mydoctor.MyDoctor1@675d3402]" name="OpenBroweser" is-config="true" duration-ms="9960" started-at="2018-02-12T17:31:48Z" finished-at="2018-02-12T17:31:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBroweser -->
+        <test-method status="PASS" signature="OpenBroweser()[pri:0, instance:com.mydoctor.MyDoctor2@68be2bc2]" name="OpenBroweser" is-config="true" duration-ms="8858" started-at="2018-02-12T17:31:58Z" finished-at="2018-02-12T17:32:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBroweser -->
+        <test-method status="PASS" signature="OpenBroweser()[pri:0, instance:com.mydoctor.MyDoctor3@51565ec2]" name="OpenBroweser" is-config="true" duration-ms="9295" started-at="2018-02-12T17:32:07Z" finished-at="2018-02-12T17:32:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBroweser -->
+        <test-method status="PASS" signature="OpenBroweser()[pri:0, instance:com.mydoctor.MyDoctor4@6d00a15d]" name="OpenBroweser" is-config="true" duration-ms="8876" started-at="2018-02-12T17:32:16Z" finished-at="2018-02-12T17:32:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBroweser -->
+        <test-method status="PASS" signature="OpenBroweser()[pri:0, instance:com.mydoctor.MyDoctor5@28feb3fa]" name="OpenBroweser" is-config="true" duration-ms="9644" started-at="2018-02-12T17:32:25Z" finished-at="2018-02-12T17:32:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBroweser -->
+        <test-method status="PASS" signature="verify_user_able_to_click_creatDoctor_Link()[pri:0, instance:com.mydoctor.MyDoctor1@675d3402]" name="verify_user_able_to_click_creatDoctor_Link" duration-ms="13015" started-at="2018-02-12T17:32:35Z" finished-at="2018-02-12T17:32:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_user_able_to_click_creatDoctor_Link -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.mydoctor.MyDoctor1@675d3402]" name="logout" is-config="true" duration-ms="9358" started-at="2018-02-12T17:33:45Z" finished-at="2018-02-12T17:33:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-      </class> <!-- com.mydoctor.MyDoctor5 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.mydoctor.MyDoctor2@68be2bc2]" name="logout" is-config="true" duration-ms="11068" started-at="2018-02-12T17:33:55Z" finished-at="2018-02-12T17:34:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.mydoctor.MyDoctor3@51565ec2]" name="logout" is-config="true" duration-ms="7503" started-at="2018-02-12T17:34:06Z" finished-at="2018-02-12T17:34:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.mydoctor.MyDoctor4@6d00a15d]" name="logout" is-config="true" duration-ms="8420" started-at="2018-02-12T17:34:13Z" finished-at="2018-02-12T17:34:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.mydoctor.MyDoctor5@28feb3fa]" name="logout" is-config="true" duration-ms="5677" started-at="2018-02-12T17:34:21Z" finished-at="2018-02-12T17:34:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.mydoctor.MyDoctor1 -->
+    </test> <!-- Regression suite 1 -->
+  </suite> <!-- example suite 1 -->
 </testng-results>

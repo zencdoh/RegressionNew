@@ -27,31 +27,38 @@ public WebDriver driver = null;
 	
 	
 	@Test()
-	public void verify_user_able_to_click_approveDoctors_link(){
+	public void verify_user_able_to_click_approveDoctors_link() throws InterruptedException{
 		driver.findElement(By.xpath("//*[@id='leftcolumn']/div/li[3]/a")).click();
 		System.out.println("clicking on Admin login button");
+		Thread.sleep(1500);
 		driver.findElement(By.xpath("//input[@name='id']")).sendKeys("10000");
+		Thread.sleep(1500);
 		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("password");
+		Thread.sleep(1500);
 		driver.findElement(By.xpath("//input[@id='login']")).click();
 		System.out.println("enter user name and password and click on ok button");
+		Thread.sleep(1500);
 		// driver.findElement(By.xpath("//body")).sendKeys(Keys.F5);
 		driver.findElement(By.xpath("//*[@id='navlist']/li[6]/a")).click();
 		System.out.println("click on  Approve doctors link link");
+		Thread.sleep(1500);
 		String s1=driver.findElement(By.xpath("//div[@id='contentcolumn']/h2")).getText();
 		Assert.assertEquals(s1, "Approve Leave");
 		System.out.println("after clicking on Approve doctor leave link verify text Approve Leave");
-		
+		Thread.sleep(1500);
 	}
 
 	@AfterTest
 	public void logout() throws InterruptedException{
 		driver.findElement(By.xpath("//*[@id='navlist']/li[1]/a")).click();
 		System.out.println("click on Home button");
+		Thread.sleep(1500);
 		driver.findElement(By.xpath("//*[@id='navlist']/li[7]/a")).click();
 		System.out.println("Click on logout Button");
+		Thread.sleep(1500);
 		driver.findElement(By.xpath("//*[@id='login']")).click();
+		Thread.sleep(1500);
 		System.out.println("*********************************************************");
-		//Thread.sleep(2000);
 		System.out.println();
 		driver.close();
 	}
