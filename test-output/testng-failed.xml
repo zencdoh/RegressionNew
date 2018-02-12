@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.mydoctor.MyDoctor">
+      <class name="com.mydoctor.MyDoctor1">
         <methods>
-          <include name="verify_user_able_to_click_creatDoctor_Link"/>
           <include name="logout"/>
           <include name="OpenBroweser"/>
+          <include name="verify_user_able_to_click_creatDoctor_Link"/>
         </methods>
-      </class> <!-- com.mydoctor.MyDoctor -->
+      </class> <!-- com.mydoctor.MyDoctor1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

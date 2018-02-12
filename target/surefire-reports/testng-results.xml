@@ -1,25 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="example suite 1" duration-ms="22753" started-at="2018-02-08T07:14:02Z" finished-at="2018-02-08T07:14:25Z">
+  <suite name="example suite 1" duration-ms="75192" started-at="2018-02-12T07:25:15Z" finished-at="2018-02-12T07:26:30Z">
     <groups>
     </groups>
-    <test name="Regression suite 1" duration-ms="22753" started-at="2018-02-08T07:14:02Z" finished-at="2018-02-08T07:14:25Z">
-      <class name="com.mydoctor.MyDoctor">
-        <test-method status="PASS" signature="OpenBroweser()[pri:0, instance:com.mydoctor.MyDoctor@47f37ef1]" name="OpenBroweser" is-config="true" duration-ms="14294" started-at="2018-02-08T12:44:02Z" finished-at="2018-02-08T12:44:17Z">
+    <test name="Regression suite 1" duration-ms="75192" started-at="2018-02-12T07:25:15Z" finished-at="2018-02-12T07:26:30Z">
+      <class name="com.mydoctor.MyDoctor5">
+        <test-method status="PASS" signature="verify_user_able_to_click_approveDoctors_link()[pri:0, instance:com.mydoctor.MyDoctor5@3cb5cdba]" name="verify_user_able_to_click_approveDoctors_link" duration-ms="3315" started-at="2018-02-12T12:56:10Z" finished-at="2018-02-12T12:56:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_user_able_to_click_approveDoctors_link -->
+      </class> <!-- com.mydoctor.MyDoctor5 -->
+      <class name="com.mydoctor.MyDoctor3">
+        <test-method status="PASS" signature="verify_user_able_to_click_deletePatient_Link()[pri:0, instance:com.mydoctor.MyDoctor3@19bb089b]" name="verify_user_able_to_click_deletePatient_Link" duration-ms="4699" started-at="2018-02-12T12:56:05Z" finished-at="2018-02-12T12:56:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_user_able_to_click_deletePatient_Link -->
+      </class> <!-- com.mydoctor.MyDoctor3 -->
+      <class name="com.mydoctor.MyDoctor2">
+        <test-method status="PASS" signature="verify_user_able_to_click_deleteDoctor_Link()[pri:0, instance:com.mydoctor.MyDoctor2@56cbfb61]" name="verify_user_able_to_click_deleteDoctor_Link" duration-ms="2995" started-at="2018-02-12T12:56:02Z" finished-at="2018-02-12T12:56:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_user_able_to_click_deleteDoctor_Link -->
+      </class> <!-- com.mydoctor.MyDoctor2 -->
+      <class name="com.mydoctor.MyDoctor1">
+        <test-method status="PASS" signature="OpenBroweser()[pri:0, instance:com.mydoctor.MyDoctor1@1134affc]" name="OpenBroweser" is-config="true" duration-ms="11283" started-at="2018-02-12T12:55:15Z" finished-at="2018-02-12T12:55:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBroweser -->
-        <test-method status="PASS" signature="verify_user_able_to_click_creatDoctor_Link()[pri:0, instance:com.mydoctor.MyDoctor@47f37ef1]" name="verify_user_able_to_click_creatDoctor_Link" duration-ms="4388" started-at="2018-02-08T12:44:17Z" finished-at="2018-02-08T12:44:21Z">
+        <test-method status="PASS" signature="OpenBroweser()[pri:0, instance:com.mydoctor.MyDoctor2@56cbfb61]" name="OpenBroweser" is-config="true" duration-ms="10428" started-at="2018-02-12T12:55:26Z" finished-at="2018-02-12T12:55:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBroweser -->
+        <test-method status="PASS" signature="OpenBroweser()[pri:0, instance:com.mydoctor.MyDoctor3@19bb089b]" name="OpenBroweser" is-config="true" duration-ms="11904" started-at="2018-02-12T12:55:36Z" finished-at="2018-02-12T12:55:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBroweser -->
+        <test-method status="PASS" signature="OpenBroweser()[pri:0, instance:com.mydoctor.MyDoctor5@3cb5cdba]" name="OpenBroweser" is-config="true" duration-ms="9893" started-at="2018-02-12T12:55:48Z" finished-at="2018-02-12T12:55:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBroweser -->
+        <test-method status="PASS" signature="verify_user_able_to_click_creatDoctor_Link()[pri:0, instance:com.mydoctor.MyDoctor1@1134affc]" name="verify_user_able_to_click_creatDoctor_Link" duration-ms="4288" started-at="2018-02-12T12:55:58Z" finished-at="2018-02-12T12:56:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_user_able_to_click_creatDoctor_Link -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:com.mydoctor.MyDoctor@47f37ef1]" name="logout" is-config="true" duration-ms="4061" started-at="2018-02-08T12:44:21Z" finished-at="2018-02-08T12:44:25Z">
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.mydoctor.MyDoctor1@1134affc]" name="logout" is-config="true" duration-ms="4000" started-at="2018-02-12T12:56:14Z" finished-at="2018-02-12T12:56:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-      </class> <!-- com.mydoctor.MyDoctor -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.mydoctor.MyDoctor2@56cbfb61]" name="logout" is-config="true" duration-ms="4146" started-at="2018-02-12T12:56:18Z" finished-at="2018-02-12T12:56:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.mydoctor.MyDoctor3@19bb089b]" name="logout" is-config="true" duration-ms="4068" started-at="2018-02-12T12:56:22Z" finished-at="2018-02-12T12:56:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.mydoctor.MyDoctor5@3cb5cdba]" name="logout" is-config="true" duration-ms="4161" started-at="2018-02-12T12:56:26Z" finished-at="2018-02-12T12:56:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.mydoctor.MyDoctor1 -->
     </test> <!-- Regression suite 1 -->
   </suite> <!-- example suite 1 -->
 </testng-results>

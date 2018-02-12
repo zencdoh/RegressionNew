@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="41152" started-at="2018-02-05T13:35:55Z" finished-at="2018-02-05T13:36:36Z">
+  <suite name="Default suite" duration-ms="14727" started-at="2018-02-12T07:32:38Z" finished-at="2018-02-12T07:32:52Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="41152" started-at="2018-02-05T13:35:55Z" finished-at="2018-02-05T13:36:36Z">
-      <class name="com.mydoctor.MyDoctor">
-        <test-method status="PASS" signature="OpenBroweser()[pri:0, instance:com.mydoctor.MyDoctor@2ef5e5e3]" name="OpenBroweser" is-config="true" duration-ms="20897" started-at="2018-02-05T19:05:55Z" finished-at="2018-02-05T19:06:16Z">
+    <test name="Default test" duration-ms="14727" started-at="2018-02-12T07:32:38Z" finished-at="2018-02-12T07:32:52Z">
+      <class name="com.mydoctor.MyDoctor5">
+        <test-method status="PASS" signature="OpenBroweser()[pri:0, instance:com.mydoctor.MyDoctor5@36d4b5c]" name="OpenBroweser" is-config="true" duration-ms="10458" started-at="2018-02-12T13:02:38Z" finished-at="2018-02-12T13:02:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBroweser -->
-        <test-method status="PASS" signature="verify_user_able_to_click_creatDoctor_Link()[pri:0, instance:com.mydoctor.MyDoctor@2ef5e5e3]" name="verify_user_able_to_click_creatDoctor_Link" duration-ms="8954" started-at="2018-02-05T19:06:16Z" finished-at="2018-02-05T19:06:25Z">
+        <test-method status="PASS" signature="verify_user_able_to_click_approveDoctors_link()[pri:0, instance:com.mydoctor.MyDoctor5@36d4b5c]" name="verify_user_able_to_click_approveDoctors_link" duration-ms="2623" started-at="2018-02-12T13:02:48Z" finished-at="2018-02-12T13:02:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_user_able_to_click_creatDoctor_Link -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:com.mydoctor.MyDoctor@2ef5e5e3]" name="logout" is-config="true" duration-ms="11286" started-at="2018-02-05T19:06:25Z" finished-at="2018-02-05T19:06:36Z">
+        </test-method> <!-- verify_user_able_to_click_approveDoctors_link -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.mydoctor.MyDoctor5@36d4b5c]" name="logout" is-config="true" duration-ms="1622" started-at="2018-02-12T13:02:51Z" finished-at="2018-02-12T13:02:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-      </class> <!-- com.mydoctor.MyDoctor -->
+      </class> <!-- com.mydoctor.MyDoctor5 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
