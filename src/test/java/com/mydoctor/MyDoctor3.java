@@ -25,7 +25,7 @@ public WebDriver driver = null;
 		System.out.println("opening url https://35.225.248.24 ");
 	}
 	
-	@Test()
+	@Test(priority=3)
 	public void verify_user_able_to_click_deletePatient_Link() throws InterruptedException{
 		driver.findElement(By.xpath("//*[@id='leftcolumn']/div/li[3]/a")).click();
 		System.out.println("clicking on Admin login button");
