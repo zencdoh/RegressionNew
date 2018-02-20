@@ -21,8 +21,8 @@ public class MyDoctor1 {
 		 
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		driver.get("https://35.225.248.24");
-		System.out.println("opening url https://35.225.248.24 ");
+		driver.get("https://doctor.imsrndlabs.com");
+		System.out.println("opening url https://doctor.imsrndlabs.com ");
 	}
 	
 @Test(priority=1)
