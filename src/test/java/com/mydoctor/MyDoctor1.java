@@ -16,6 +16,7 @@ public class MyDoctor1 {
 	
 	@BeforeTest
 	public void OpenBroweser(){
+		System.setProperty("webdriver.gecko.driver", "/home/ubuntu/geckodriver");
 		driver= new FirefoxDriver();
 		System.out.println("opening browser");
 		 
