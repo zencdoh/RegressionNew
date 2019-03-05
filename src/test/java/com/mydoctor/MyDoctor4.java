@@ -23,7 +23,7 @@ public WebDriver driver = null;
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get("https://doctor.imsrndlabs.com");
-		System.out.println("opening url https://doctor.imsrndlabs.com ");
+		System.out.println("opening url https://doctor-aws.THEVINCI.CO.IN ");
 	}
 	@Test(priority=4)
 	public void verify_user_able_to_click_changePassword_Link() throws InterruptedException{
