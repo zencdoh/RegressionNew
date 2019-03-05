@@ -22,7 +22,7 @@ public WebDriver driver = null;
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get("https://doctor.imsrndlabs.com");
-		System.out.println("opening url https://doctor.imsrndlabs.com ");
+		System.out.println("opening url https://doctor-aws.THEVINCI.CO.IN ");
 	}
 	
 	
