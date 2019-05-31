@@ -15,7 +15,7 @@ public class MyDoctor1 {
 	public WebDriver driver = null;
 	
 	@BeforeTest
-	public void OpenBroweser(){
+	public void OpenBrowser(){
 		driver= new FirefoxDriver();
 		System.out.println("opening browser");
 		 
