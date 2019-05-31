@@ -5,13 +5,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>demoProject</name>
   <description>this project is for geving demo on mydoctoer Application.</description>
-   
-	<groupId>cucumber</groupId>
-    <artifactId>cucumber-java-skeleton</artifactId>
-    <version>0.0.1</version>
-    <packaging>jar</packaging>
-    <name>Cucumber-Java Skeleton</name>
-	
+   		
   <build>
     <plugins>
       <plugin>
