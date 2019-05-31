@@ -52,8 +52,7 @@
   <version>6.8</version>
   <scope>test</scope>
 </dependency>
-          <dependencies>
-        <dependency>
+               <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-java</artifactId>
             <version>${cucumber.version}</version>
@@ -68,6 +67,5 @@
         </dependency>
     </dependencies>
 	  
-  
-  </dependencies>
+ 
 </project>
