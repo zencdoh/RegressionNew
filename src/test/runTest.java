@@ -2,9 +2,10 @@ package CucumberReport;
 
 import org.junit.runner.RunWith; 
 import cucumber.api.junit.Cucumber; 
+import cucumber.api.CucumberOptions;
 
 @RunWith(Cucumber.class) 
-@Cucumber.Options( 
+@CucumberOptions( 
    format = {"pretty", "html:target/Destination"} ) 
 	
 //Specifying pretty as a format option ensure that HTML report will be generated. 
