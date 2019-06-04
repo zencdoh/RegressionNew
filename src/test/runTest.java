@@ -5,8 +5,7 @@ import cucumber.api.junit.Cucumber;
 import cucumber.api.CucumberOptions;
 
 @RunWith(Cucumber.class) 
-@CucumberOptions( 
-   format = {"pretty", "html:target/Destination"} ) 
+@CucumberOptions(plugin = {"pretty", "html:target/Destination"} ) 
 	
 //Specifying pretty as a format option ensure that HTML report will be generated. 
 //When we specify html:target/Destination - It will generate the HTML report 
