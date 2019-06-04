@@ -28,8 +28,7 @@
         			<testFailureIgnore>true</testFailureIgnore>
     				<suiteXmlFiles>
                         	<suiteXmlFile>target/test-classes/testng.xml</suiteXmlFile>
-                        	<suiteXmlFile>TEST-TestSuite.xml</suiteXmlFile>
-                    		</suiteXmlFiles>
+                                       </suiteXmlFiles>
 				</configuration>
 			</plugin>
     </plugins>
